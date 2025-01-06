@@ -19,7 +19,7 @@ export default function Header() {
               <li><Link href="#" className="text-gray-600 hover:text-blue-600">Контакты</Link></li>
             </ul>
           </nav>
-          <Button className="hidden md:inline-flex">Получить расчет</Button>
+          <Button className="hidden md:inline-flex btn-primary">Получить расчет</Button>
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <Menu className="h-6 w-6" />
           </Button>
@@ -30,7 +30,7 @@ export default function Header() {
               <li><Link href="#" className="text-gray-600 hover:text-blue-600">Услуги</Link></li>
               <li><Link href="#" className="text-gray-600 hover:text-blue-600">О нас</Link></li>
               <li><Link href="#" className="text-gray-600 hover:text-blue-600">Контакты</Link></li>
-              <li><Button className="w-full">Получить расчет</Button></li>
+              <li><Button className="w-full btn-primary">Получить расчет</Button></li>
             </ul>
           </nav>
         )}
